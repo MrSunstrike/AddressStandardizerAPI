@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+class AddressStandardization(models.Model):
+    request = models.CharField(max_length=60)
+    result = models.TextField(blank=True, null=True)
