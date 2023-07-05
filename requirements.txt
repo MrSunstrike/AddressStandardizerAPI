@@ -1,0 +1,6 @@
+adrf==0.1.1
+asgiref==3.7.2
+dadata==21.10.1
+Django==4.2.1
+djangorestframework==3.14.0
+python-dotenv==1.0.0
