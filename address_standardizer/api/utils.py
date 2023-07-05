@@ -1,5 +1,6 @@
-from dadata import DadataAsync
 from asgiref.sync import sync_to_async
+from dadata import DadataAsync
+
 from address_standardizer.settings import API_KEY_DADATA, SECRET_KEY_DADATA
 
 
@@ -28,4 +29,3 @@ def async_save_serializer(serializer):
         serializer: Сериализатор, из которого нужно сохранить данные.
     """
     serializer.save()
-

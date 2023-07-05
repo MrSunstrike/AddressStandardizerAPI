@@ -1,9 +1,9 @@
+from adrf.decorators import api_view
 from rest_framework import status
 from rest_framework.response import Response
-from adrf.decorators import api_view
 
 from api.serializers import AddressRequestsSerializer
-from api.utils import standardization_address, async_save_serializer
+from api.utils import async_save_serializer, standardization_address
 
 
 @api_view(['POST'])
