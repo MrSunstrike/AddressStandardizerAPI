@@ -1,0 +1,10 @@
+version: '3'
+
+
+services:
+  asapi_backend:
+    image: mrsunstrike/asapi_backend
+  gateway:
+    image: mrsunstrike/asapi_gateway
+    ports:
+      - 8000:80
